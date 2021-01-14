@@ -15,16 +15,16 @@
 	}
 
 	/* clearfix */
-	ul::after {
+	/* ul::after {
 		content: '';
 		display: block;
 		clear: both;
-	}
+	} */
 
-	li {
+	/* li {
 		display: block;
 		float: left;
-	}
+	} */
 
 	[aria-current] {
 		position: relative;
@@ -46,18 +46,22 @@
 		padding: 1em 0.5em;
 		display: block;
 	}
+	
+	.container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
 </style>
 
-<nav>
-	<ul>
-		<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">home</a></li>
-		<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">about</a></li>
-		<li><a aria-current="{segment === 'research' ? 'page' : undefined}" href="research">research</a></li>
-		<li><a aria-current="{segment === 'teaching' ? 'page' : undefined}" href="teaching">teaching</a></li>
-		<li><a aria-current="{segment === 'resources' ? 'page' : undefined}" href="resources">resources</a></li>
+<nav class="container">
+		<a aria-current="{segment === undefined ? 'page' : undefined}" href=".">home</a>
+		<a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">about</a>
+		<a aria-current="{segment === 'research' ? 'page' : undefined}" href="research">research</a>
+		<a aria-current="{segment === 'teaching' ? 'page' : undefined}" href="teaching">teaching</a>
+		<a aria-current="{segment === 'resources' ? 'page' : undefined}" href="resources">resources</a>
 
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 		     the blog data when we hover over the link or tap it on a touchscreen -->
-		<li><a rel=prefetch aria-current="{segment === 'blog' ? 'page' : undefined}" href="blog">blog</a></li>
-	</ul>
+		<a rel=prefetch aria-current="{segment === 'blog' ? 'page' : undefined}" href="blog">blog</a>
 </nav>
