@@ -2,6 +2,6 @@
 	<title>About</title>
 </svelte:head>
 
-<h1>About this site</h1>
+<h2>Nate Currit</h2>
 
-<p>This is the 'about' page. There's not much here.</p>
+<p>Nate is an Associate Professor in the Department of Geography at Texas State University.</p>
