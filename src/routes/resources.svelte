@@ -1,6 +1,10 @@
 <script>
-
+    //Nada por ahora
 </script>
+
+<svelte:head>
+	<title>Resources</title>
+</svelte:head>
 
 <h3>Computing Resources</h3>
 <ul>
@@ -10,6 +14,6 @@
 
 <h3>Presentations</h3>
 <ul>
-    <li>Presentation #1</li>
+    <li><a href="https://chikaj.github.io/presentations/test.html" target="_blank">A Reveal.js test presentation</a></li>
     <li>Presentation #2</li>
 </ul>

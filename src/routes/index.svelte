@@ -37,7 +37,7 @@
 </style>
 
 <svelte:head>
-	<title>chikaj</title>
+	<title>Nate Currit</title>
 </svelte:head>
 
 <h2>Nate Currit</h2>
