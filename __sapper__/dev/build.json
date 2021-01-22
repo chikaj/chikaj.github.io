@@ -2,44 +2,54 @@
   "bundler": "rollup",
   "shimport": "2.0.4",
   "assets": {
-    "main": "client.02a57aac.js"
+    "main": "client.4e2b9dde.js"
   },
   "css": {
     "main": [
-      "client-7c105653.css"
+      "client-54da7aa6.css"
     ]
   },
   "dependencies": {
     "index.svelte": [
-      "index.5912655e.js",
+      "index.00612666.js",
       "inject_styles.5607aec6.js",
-      "index-4f28c909.css"
+      "index-f0801370.css"
+    ],
+    "development.svelte": [
+      "development.b5ba39d9.js",
+      "inject_styles.5607aec6.js"
+    ],
+    "university.svelte": [
+      "university.42f4109e.js",
+      "inject_styles.5607aec6.js",
+      "university-8df17f8c.css"
     ],
     "resources.svelte": [
-      "resources.1f27d3ec.js",
+      "resources.a7b3495c.js",
       "inject_styles.5607aec6.js"
     ],
     "research.svelte": [
-      "research.439b3b33.js",
+      "research.cd454d1b.js",
       "inject_styles.5607aec6.js",
       "research-9b7e1db4.css"
     ],
     "teaching.svelte": [
-      "teaching.8ce7c606.js",
+      "teaching.67f436f2.js",
       "inject_styles.5607aec6.js",
       "teaching-49aba02a.css"
     ],
     "about.svelte": [
-      "about.97bacf10.js",
-      "inject_styles.5607aec6.js"
+      "about.c1490db9.js",
+      "inject_styles.5607aec6.js",
+      "about-e6872ee2.css"
     ],
     "blog/index.svelte": [
-      "index.59ec0ca7.js",
+      "index.8b367737.js",
       "inject_styles.5607aec6.js",
       "index-7ed37c94.css"
     ],
     "blog/[slug].svelte": [
-      "[slug].734b7bb7.js",
+      "[slug].683fc2c4.js",
       "inject_styles.5607aec6.js",
       "[slug]-5bc8f95f.css"
     ]

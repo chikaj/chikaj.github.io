@@ -8,24 +8,6 @@
 		font-weight: 300;
 		padding: 0 1em;
 	}
-
-	ul {
-		margin: 0;
-		padding: 0;
-	}
-
-	/* clearfix */
-	/* ul::after {
-		content: '';
-		display: block;
-		clear: both;
-	} */
-
-	/* li {
-		display: block;
-		float: left;
-	} */
-
 	[aria-current] {
 		position: relative;
 		display: inline-block;
@@ -44,21 +26,25 @@
 	a {
 		text-decoration: none;
 		padding: 1em 0.5em;
-		display: block;
+		/* display: block; */
+		/* color: white; */
 	}
 	
 	.container {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
+		/* background-color: blue */
 	}
 </style>
 
 <nav class="container">
 		<a aria-current="{segment === undefined ? 'page' : undefined}" href=".">home</a>
 		<a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">about</a>
-		<a aria-current="{segment === 'research' ? 'page' : undefined}" href="research">research</a>
-		<a aria-current="{segment === 'teaching' ? 'page' : undefined}" href="teaching">teaching</a>
+		<a aria-current="{segment === 'university' ? 'page' : undefined}" href="university">university</a>
+		<!-- <a aria-current="{segment === 'research' ? 'page' : undefined}" href="research">research</a>
+		<a aria-current="{segment === 'teaching' ? 'page' : undefined}" href="teaching">teaching</a> -->
+		<a aria-current="{segment === 'development' ? 'page' : undefined}" href="development">development</a>
 		<a aria-current="{segment === 'resources' ? 'page' : undefined}" href="resources">resources</a>
 
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
