@@ -14,6 +14,6 @@
 
 <h3>Presentations</h3>
 <ul>
-    <li><a href="https://chikaj.github.io/presentations/test.html" target="_blank">A Reveal.js test presentation</a></li>
-    <li>Presentation #2</li>
+    <li><a href="https://chikaj.github.io/presentations/presentations/test.html" target="_blank">A Reveal.js test presentation</a></li>
+    <li><a href="https://chikaj.github.io/presentations/presentations/markdown-test.html" target="_blank">A Reveal.js markdown test presentation</a></li>
 </ul>

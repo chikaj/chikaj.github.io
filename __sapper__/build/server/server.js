@@ -404,8 +404,8 @@ const Resources = create_ssr_component(($$result, $$props, $$bindings, slots) =>
     <li>Github link 2</li></ul>
 
 <h3>Presentations</h3>
-<ul><li><a href="${"https://chikaj.github.io/presentations/test.html"}" target="${"_blank"}">A Reveal.js test presentation</a></li>
-    <li>Presentation #2</li></ul>`;
+<ul><li><a href="${"https://chikaj.github.io/presentations/presentations/test.html"}" target="${"_blank"}">A Reveal.js test presentation</a></li>
+    <li><a href="${"https://chikaj.github.io/presentations/presentations/markdown-test.html"}" target="${"_blank"}">A Reveal.js markdown test presentation</a></li></ul>`;
 });
 
 var component_3 = /*#__PURE__*/Object.freeze({
